@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\structures">
+      <UniqueIdentifier>{d605aa8b-d0d7-41c5-bb5d-c9c4c578892d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\structures\table">
+      <UniqueIdentifier>{6850e1f2-ce29-4558-bd3e-4f7c01254f1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\structures\common">
+      <UniqueIdentifier>{b8802a66-91fa-4d52-a819-dafb1890d6ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\structures\list">
+      <UniqueIdentifier>{0235a681-85aa-4634-ab68-67f448fcfe9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\structures\array">
+      <UniqueIdentifier>{cb43951f-40ab-45e7-a2ee-14d01e687fa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\criterion">
+      <UniqueIdentifier>{aa7a7817-21d6-47bb-8784-4598a3d83793}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\filter">
+      <UniqueIdentifier>{da5970dd-af16-4faa-82eb-f2fcb22ae503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\structures\vector">
+      <UniqueIdentifier>{392054a3-18ff-47a3-8ae0-abdb89841368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\data">
+      <UniqueIdentifier>{cb253527-725e-4a0f-9ab0-628f9e7228c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\filtering">
+      <UniqueIdentifier>{d040b141-79f7-40a7-8c84-b5d217b0e0a6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SemestralnaPraca.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="structures\structure.cpp">
+      <Filter>Source Files\structures\common</Filter>
+    </ClCompile>
+    <ClCompile Include="structures\vector\vector.cpp">
+      <Filter>Source Files\structures\vector</Filter>
+    </ClCompile>
+    <ClCompile Include="structures\utils.cpp">
+      <Filter>Source Files\structures\common</Filter>
+    </ClCompile>
+    <ClCompile Include="territorialUnit.h">
+      <Filter>Source Files\data</Filter>
+    </ClCompile>
+    <ClCompile Include="belongsToTUCriterion.h">
+      <Filter>Source Files\criterion</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="structures\data_item.h">
+      <Filter>Source Files\structures\common</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\structure.h">
+      <Filter>Source Files\structures\common</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\structure_iterator.h">
+      <Filter>Source Files\structures\common</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\table\sequence_table.h">
+      <Filter>Source Files\structures\table</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\table\sorted_sequence_table.h">
+      <Filter>Source Files\structures\table</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\table\table.h">
+      <Filter>Source Files\structures\table</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\list\list.h">
+      <Filter>Source Files\structures\list</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\list\array_list.h">
+      <Filter>Source Files\structures\list</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\array\array.h">
+      <Filter>Source Files\structures\array</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\heap_monitor.h">
+      <Filter>Source Files\structures\common</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\vector\vector.h">
+      <Filter>Source Files\structures\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\utils.h">
+      <Filter>Source Files\structures\common</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\types.h">
+      <Filter>Source Files\structures\common</Filter>
+    </ClInclude>
+    <ClInclude Include="township.h">
+      <Filter>Source Files\data</Filter>
+    </ClInclude>
+    <ClInclude Include="state.h">
+      <Filter>Source Files\data</Filter>
+    </ClInclude>
+    <ClInclude Include="region.h">
+      <Filter>Source Files\data</Filter>
+    </ClInclude>
+    <ClInclude Include="district.h">
+      <Filter>Source Files\data</Filter>
+    </ClInclude>
+    <ClInclude Include="age.h">
+      <Filter>Source Files\data</Filter>
+    </ClInclude>
+    <ClInclude Include="education.h">
+      <Filter>Source Files\data</Filter>
+    </ClInclude>
+    <ClInclude Include="dataLoader.h">
+      <Filter>Source Files\data</Filter>
+    </ClInclude>
+    <ClInclude Include="criterion.h">
+      <Filter>Source Files\criterion</Filter>
+    </ClInclude>
+    <ClInclude Include="nameCriterion.h">
+      <Filter>Source Files\criterion</Filter>
+    </ClInclude>
+    <ClInclude Include="typeCriterion.h">
+      <Filter>Source Files\criterion</Filter>
+    </ClInclude>
+    <ClInclude Include="educationProportionCriterion.h">
+      <Filter>Source Files\criterion</Filter>
+    </ClInclude>
+    <ClInclude Include="ageCountCriterion.h">
+      <Filter>Source Files\criterion</Filter>
+    </ClInclude>
+    <ClInclude Include="ageProportionFromToCriterion.h">
+      <Filter>Source Files\criterion</Filter>
+    </ClInclude>
+    <ClInclude Include="ageGroupCountCriterion.h">
+      <Filter>Source Files\criterion</Filter>
+    </ClInclude>
+    <ClInclude Include="ageGroupProportionCriterion.h">
+      <Filter>Source Files\criterion</Filter>
+    </ClInclude>
+    <ClInclude Include="superiorTUCriterion.h">
+      <Filter>Source Files\criterion</Filter>
+    </ClInclude>
+    <ClInclude Include="ageCountFromToCriterion.h">
+      <Filter>Source Files\criterion</Filter>
+    </ClInclude>
+    <ClInclude Include="filterValue.h">
+      <Filter>Source Files\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="filterRange.h">
+      <Filter>Source Files\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="customFilter.h">
+      <Filter>Source Files\filtering</Filter>
+    </ClInclude>
+    <ClInclude Include="Inicializator.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="filterByName.h">
+      <Filter>Source Files\filtering</Filter>
+    </ClInclude>
+    <ClInclude Include="educationCountCriterion.h">
+      <Filter>Source Files\criterion</Filter>
+    </ClInclude>
+    <ClInclude Include="filter.h">
+      <Filter>Source Files\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="filterWithCriterion.h">
+      <Filter>Source Files\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="sorter.h">
+      <Filter>Source Files\filtering</Filter>
+    </ClInclude>
+    <ClInclude Include="finderMaxMin.h">
+      <Filter>Source Files\filtering</Filter>
+    </ClInclude>
+    <ClInclude Include="mainFilter.h">
+      <Filter>Source Files\filtering</Filter>
+    </ClInclude>
+    <ClInclude Include="quickSort.h">
+      <Filter>Source Files\filtering</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\table\unsorted_sequence_table.h">
+      <Filter>Source Files\structures\table</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
